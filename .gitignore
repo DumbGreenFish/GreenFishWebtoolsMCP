@@ -1,0 +1,18 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# uv / virtual env
+.venv/
+
+# Environment overrides
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
