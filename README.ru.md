@@ -15,9 +15,9 @@
   <p align="center">
     Лёгкий MCP-сервер, который даёт ИИ-ассистентам актуальный веб-поиск и чтение страниц — без API-ключей.
     <br />
-    <a href="https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues/new?labels=bug">Сообщить об ошибке</a>
+    <a href="DumbGreenFish/GreenFishWebtoolsMCP/issues/new?labels=bug">Сообщить об ошибке</a>
     &middot;
-    <a href="https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues/new?labels=enhancement">Предложить улучшение</a>
+    <a href="DumbGreenFish/GreenFishWebtoolsMCP/issues/new?labels=enhancement">Предложить улучшение</a>
   </p>
 </div>
 
@@ -127,7 +127,7 @@ uv sync
 - [ ] Настраиваемая стратегия ранжирования и дедупликации результатов
 - [ ] Документация на нескольких языках
 
-Полный список предложенных функций и известных проблем — в [открытых задачах](https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues).
+Полный список предложенных функций и известных проблем — в [открытых задачах](DumbGreenFish/GreenFishWebtoolsMCP/issues).
 
 <p align="right">(<a href="#readme-top">наверх</a>)</p>
 
@@ -156,7 +156,7 @@ uv sync
 <!-- КОНТАКТЫ -->
 ## Контакты
 
-Ссылка на проект: [https://github.com/DumbGreenFish/GreenFishWebtoolsMCP](https://github.com/DumbGreenFish/GreenFishWebtoolsMCP)
+Ссылка на проект: [https://github.com/DumbGreenFish/GreenFishWebtoolsMCP](DumbGreenFish/GreenFishWebtoolsMCP)
 
 <p align="right">(<a href="#readme-top">наверх</a>)</p>
 
@@ -173,13 +173,13 @@ uv sync
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [forks-shield]: https://img.shields.io/github/forks/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
-[forks-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/network/members
+[forks-url]: DumbGreenFish/GreenFishWebtoolsMCP/network/members
 [stars-shield]: https://img.shields.io/github/stars/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
-[stars-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/stargazers
+[stars-url]: DumbGreenFish/GreenFishWebtoolsMCP/stargazers
 [issues-shield]: https://img.shields.io/github/issues/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
-[issues-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues
+[issues-url]: DumbGreenFish/GreenFishWebtoolsMCP/issues
 [license-shield]: https://img.shields.io/github/license/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
-[license-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/blob/master/LICENSE
+[license-url]: DumbGreenFish/GreenFishWebtoolsMCP/blob/master/LICENSE
 [Python-shield]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
 [SearXNG-shield]: https://img.shields.io/badge/SearXNG-3050B0?style=for-the-badge

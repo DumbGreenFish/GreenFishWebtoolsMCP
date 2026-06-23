@@ -15,9 +15,9 @@
   <p align="center">
     A lightweight MCP server that gives AI assistants real-time web search and URL reading — no API keys required.
     <br />
-    <a href="https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues/new?labels=bug">Report Bug</a>
+    <a href="DumbGreenFish/GreenFishWebtoolsMCP/issues/new?labels=bug">Report Bug</a>
     &middot;
-    <a href="https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues/new?labels=enhancement">Request Feature</a>
+    <a href="DumbGreenFish/GreenFishWebtoolsMCP/issues/new?labels=enhancement">Request Feature</a>
   </p>
 </div>
 
@@ -127,7 +127,7 @@ Replace `/path/to/greenfish-webtools-mcp` with the actual path to the cloned rep
 - [ ] Configurable result ranking and deduplication strategy
 - [ ] Multi-language documentation
 
-See the [open issues](https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues) for a full list of proposed features and known issues.
+See the [open issues](https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues) for a full list of proposed features and known issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +156,7 @@ Distributed under the GNU GPLv3 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP](https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP)
+Project Link: [https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP](https://github.com/DumbGreenFish/GreenFishWebtoolsMCP)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,14 +172,14 @@ This project would not exist without [SearXNG](https://github.com/searxng/searxn
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[forks-shield]: https://img.shields.io/github/forks/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
-[forks-url]: https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/network/members
-[stars-shield]: https://img.shields.io/github/stars/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
-[stars-url]: https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/stargazers
-[issues-shield]: https://img.shields.io/github/issues/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
-[issues-url]: https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues
-[license-shield]: https://img.shields.io/github/license/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
-[license-url]: https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/blob/master/LICENSE
+[forks-shield]: https://img.shields.io/github/forks/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
+[forks-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/network/members
+[stars-shield]: https://img.shields.io/github/stars/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
+[stars-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/stargazers
+[issues-shield]: https://img.shields.io/github/issues/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
+[issues-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues
+[license-shield]: https://img.shields.io/github/license/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
+[license-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/blob/master/LICENSE
 [Python-shield]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
 [SearXNG-shield]: https://img.shields.io/badge/SearXNG-3050B0?style=for-the-badge
