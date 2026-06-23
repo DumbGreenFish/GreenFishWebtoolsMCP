@@ -3,8 +3,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
+[![GPL License][license-shield]][license-url]
 
 
 <!-- PROJECT TITLE -->
@@ -178,8 +177,8 @@ This project would not exist without [SearXNG](https://github.com/searxng/searxn
 [stars-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/stargazers
 [issues-shield]: https://img.shields.io/github/issues/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
 [issues-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/issues
-[license-shield]: https://img.shields.io/github/license/DumbGreenFish/GreenFishWebtoolsMCP.svg?style=for-the-badge
-[license-url]: https://github.com/DumbGreenFish/GreenFishWebtoolsMCP/blob/master/LICENSE
+[license-shield]: https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=for-the-badge
+[license-url]: https://www.gnu.org/licenses/gpl-3.0
 [Python-shield]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
 [SearXNG-shield]: https://img.shields.io/badge/SearXNG-3050B0?style=for-the-badge
