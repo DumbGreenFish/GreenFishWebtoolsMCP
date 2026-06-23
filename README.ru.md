@@ -14,10 +14,6 @@
 
   <p align="center">
     Лёгкий MCP-сервер, который даёт ИИ-ассистентам актуальный веб-поиск и чтение страниц — без API-ключей.
-    <br />
-    <a href="DumbGreenFish/GreenFishWebtoolsMCP/issues/new?labels=bug">Сообщить об ошибке</a>
-    &middot;
-    <a href="DumbGreenFish/GreenFishWebtoolsMCP/issues/new?labels=enhancement">Предложить улучшение</a>
   </p>
 </div>
 
