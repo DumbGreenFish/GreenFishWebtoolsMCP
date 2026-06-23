@@ -78,7 +78,7 @@ After that, open the SearXNG admin interface, go to **Preferences → General**,
 Now clone this repository and install the Python dependencies:
 
 ```sh
-git clone https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP.git
+git clone https://github.com/DumbGreenFish/GreenFishWebtoolsMCP.git
 cd greenfish-webtools-mcp
 uv sync
 ```
