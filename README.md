@@ -155,7 +155,7 @@ Distributed under the GNU GPLv3 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/https://github.com/DumbGreenFish/GreenFishWebtoolsMCP](https://github.com/DumbGreenFish/GreenFishWebtoolsMCP)
+Project Link: [https://github.com/DumbGreenFish/GreenFishWebtoolsMCP](https://github.com/DumbGreenFish/GreenFishWebtoolsMCP)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
