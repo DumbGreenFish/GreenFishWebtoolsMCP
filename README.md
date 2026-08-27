@@ -119,6 +119,15 @@ Replace `/path/to/greenfish-webtools-mcp` with the actual path to the cloned rep
 
 
 
+<!-- DOCKER -->
+## Docker
+
+Copy `.env.example` to `.env`, set `SEARXNG_SECRET`, then run `docker compose up` to start the HTTP server with SearXNG. To use your own SearXNG instance run `docker compose -f docker-compose.plain.yml up` and set `SEARXNG_URL`.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 <!-- ROADMAP -->
 ## Roadmap
 

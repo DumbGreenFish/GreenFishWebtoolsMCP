@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "MCP server with web search and URL content extraction via SearXNG"
 requires-python = ">=3.10"
 dependencies = [
-    "mcp[cli]",
+    "mcp[cli]<2",
     "httpx",
     "trafilatura",
     "pydantic",

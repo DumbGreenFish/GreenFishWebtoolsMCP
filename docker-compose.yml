@@ -1,0 +1,42 @@
+name: greenfish-webtools
+
+services:
+  greenfish-webtools:
+    build: .
+    container_name: greenfish-webtools
+    ports:
+      - "1235:1235"
+    environment:
+      SEARXNG_URL: http://searxng:8080/search
+    depends_on:
+      searxng:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:1235/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - greenfish-webtools
+
+  searxng:
+    image: searxng/searxng:latest
+    container_name: searxng
+    volumes:
+      - ./searxng-settings.yml:/etc/searxng/settings.yml:ro
+    environment:
+      SEARXNG_BASE_URL: http://localhost:8080/
+      SEARXNG_SECRET: ${SEARXNG_SECRET:?set SEARXNG_SECRET in .env}
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8080/healthz"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    networks:
+      - greenfish-webtools
+
+networks:
+  greenfish-webtools:
+    name: greenfish-webtools
