@@ -65,8 +65,12 @@ uv sync
 
 
 
-<!-- ИСПОЛЬЗОВАНИЕ -->
+<!-- Использование -->
 ## Использование
+
+`greenfish-webtools-mcp` можно запускать либо как локальный MCP-сервер через stdio, либо как обычный HTTP-сервер.
+
+### Stdio
 
 Зарегистрируйте сервер в конфигурационном файле вашего MCP-клиента. Пример ниже подходит для Claude Desktop и большинства других клиентов, принимающих стандартный JSON-формат:
 
@@ -79,7 +83,7 @@ uv sync
         "--directory",
         "/path/to/greenfish-webtools-mcp",
         "run",
-        "app.py"
+        "app-stdin.py"
       ],
       "env": {
         "SEARXNG_URL": "http://127.0.0.1:1818/search"
@@ -89,7 +93,57 @@ uv sync
 }
 ```
 
-Замените `/path/to/greenfish-webtools-mcp` на реальный путь к склонированному репозиторию на вашей машине, а `SEARXNG_URL` скорректируйте под адрес, по которому работает ваш SearXNG. После запуска MCP-сервера ИИ-ассистент автоматически получит доступ к инструментам `greenfish_websearch` и `greenfish_fetch_url`.
+Замените `/path/to/greenfish-webtools-mcp` на реальный путь к склонированному репозиторию на вашей машине, а `SEARXNG_URL` скорректируйте под адрес, по которому работает ваш SearXNG.
+
+### HTTP-сервер
+
+В качестве альтернативы MCP-сервер можно запустить как обычный HTTP-сервер с помощью `app.py`:
+
+```bash
+uv run app.py
+```
+
+По умолчанию MCP endpoint доступен по адресу:
+
+```text
+http://localhost:1235/mcp
+```
+
+Для MCP-клиентов, поддерживающих удалённые HTTP-серверы, конфигурация может выглядеть так:
+
+```json
+{
+  "mcpServers": {
+    "greenfish-webtools": {
+      "url": "http://localhost:1235/mcp"
+    }
+  }
+}
+```
+
+После подключения любым из способов ИИ-ассистент автоматически получит доступ к `greenfish_websearch` и `greenfish_fetch_url`.
+
+<p align="right">(<a href="#readme-top">наверх</a>)</p>
+
+
+
+<!-- DOCKER -->
+## Docker
+
+Чтобы запустить HTTP-сервер вместе со встроенным экземпляром SearXNG, создайте `.env` и задайте `SEARXNG_SECRET`:
+
+Затем запустите сервисы:
+
+```bash
+docker compose up
+```
+
+Если у вас уже есть собственный экземпляр SearXNG, задайте в `.env` переменную `SEARXNG_URL` с адресом вашего SearXNG и используйте обычную Compose-конфигурацию:
+
+```bash
+docker compose -f docker-compose.plain.yml up
+```
+
 
 <p align="right">(<a href="#readme-top">наверх</a>)</p>
 
