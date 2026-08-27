@@ -92,6 +92,10 @@ That's it. No API keys, no accounts.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+You can run `greenfish-webtools-mcp` either as a local stdio MCP server or as a regular HTTP server.
+
+### Stdio
+
 Register the server in your MCP client configuration file. The example below works for Claude Desktop and most other clients that accept the standard JSON format:
 
 ```json
@@ -103,7 +107,7 @@ Register the server in your MCP client configuration file. The example below wor
         "--directory",
         "/path/to/greenfish-webtools-mcp",
         "run",
-        "app.py"
+        "app-stdin.py"
       ],
       "env": {
         "SEARXNG_URL": "http://127.0.0.1:1818/search"
@@ -113,7 +117,35 @@ Register the server in your MCP client configuration file. The example below wor
 }
 ```
 
-Replace `/path/to/greenfish-webtools-mcp` with the actual path to the cloned repository on your machine, and adjust `SEARXNG_URL` to match the address where your SearXNG instance is running. Once the MCP server starts, the AI assistant will have access to `greenfish_websearch` and `greenfish_fetch_url` automatically.
+Replace `/path/to/greenfish-webtools-mcp` with the actual path to the cloned repository on your machine, and adjust `SEARXNG_URL` to match the address where your SearXNG instance is running.
+
+### HTTP server
+
+Alternatively, you can run the MCP server as a regular HTTP server using `app.py`:
+
+```bash
+uv run app.py
+```
+
+By default, the MCP endpoint is available at:
+
+```text
+http://localhost:1235/mcp
+```
+
+For MCP clients that support remote HTTP servers, the configuration can look like this:
+
+```json
+{
+  "mcpServers": {
+    "greenfish-webtools": {
+      "url": "http://localhost:1235/mcp"
+    }
+  }
+}
+```
+
+Once connected using either method, the AI assistant will have access to `greenfish_websearch` and `greenfish_fetch_url` automatically.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +154,20 @@ Replace `/path/to/greenfish-webtools-mcp` with the actual path to the cloned rep
 <!-- DOCKER -->
 ## Docker
 
-Copy `.env.example` to `.env`, set `SEARXNG_SECRET`, then run `docker compose up` to start the HTTP server with SearXNG. To use your own SearXNG instance run `docker compose -f docker-compose.plain.yml up` and set `SEARXNG_URL`.
+To run the HTTP server with the bundled SearXNG instance, create `.env` and set `SEARXNG_SECRET`:
+
+Then start the services with:
+
+```bash
+docker compose up
+```
+
+If you already have your own SearXNG instance, set `SEARXNG_URL` in `.env` to the address of your SearXNG instance and use the plain Compose configuration instead:
+
+```bash
+docker compose -f docker-compose.plain.yml up
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
